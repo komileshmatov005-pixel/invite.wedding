@@ -3,7 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+<style>
+body {
+  margin:0;
+  font-family: sans-serif;
+  color:white;
+  text-align:center;
+}
+
 section {
   height:100vh;
   display:flex;
@@ -20,6 +28,12 @@ section {
   z-index:-1;
 }
 
+/* CARD */
+.card {
+  background: rgba(0,0,0,0.6);
+  padding:20px;
+  border-radius:20px;
+}
 
 /* BUTTON */
 button {
@@ -32,7 +46,6 @@ button {
 </head>
 
 <body>
-
 <!-- VIDEO -->
 <video autoplay muted loop id="bgvideo">
   <source src="VIDEO_LINK.mp4">
